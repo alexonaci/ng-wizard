@@ -6,10 +6,10 @@
 - No requirements on style, it can be styled as you wish
 
 ### View 1
-![Step 1](/wireframes/view_1.png)
+![Step 1](/wireframes/view_01.png)
 
 ### View 2
-![Step 2](/wireframes/view_2.png)
+![Step 2](/wireframes/view_02.png)
 
 ### View 3
-![Step 3](/wireframes/view_3.png)
+![Step 3](/wireframes/view_03.png)

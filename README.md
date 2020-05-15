@@ -5,8 +5,11 @@
 - You can configure the router as you want (not specified in the wireframes)
 - No requirements on style, it can be styled as you wish
 
-![Step 1](/mocks/step_1.png)
+### View 1
+![Step 1](/wireframes/view_1.png)
 
-![Step 2](/mocks/step_2.png)
+### View 2
+![Step 2](/wireframes/view_2.png)
 
-![Step 3](/mocks/step_3.png)
+### View 3
+![Step 3](/wireframes/view_3.png)

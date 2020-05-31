@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.main-container {
+    border: 1px solid black;
+    padding: 50px;
+    margin: 70px 150px;
+    min-width: 300px;
+}
+
+button {
+    cursor: pointer;    
+}

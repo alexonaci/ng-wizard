@@ -1,0 +1,17 @@
+<div class="main-container">
+  <div *ngIf="index === 1">
+    <first-view></first-view>
+  </div>
+  <div *ngIf="index === 2">
+    <second-view></second-view>
+  </div>
+  <div *ngIf="index === 3">
+    <third-view></third-view>
+  </div>
+  <navigation 
+    [index]="index" 
+    (next)="goToLink(index + 1)"
+    (previous)="goToLink(index - 1)" 
+    (smallLinks)="goToLink($event)">
+  </navigation>
+</div>

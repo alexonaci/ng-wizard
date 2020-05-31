@@ -1,0 +1,21 @@
+<div>
+    <div class="small-btn-container">
+        <button 
+            *ngFor="let step of steps" 
+            [ngClass]="{'active': step === index}"
+            (click)="smallLinks.emit(step)" 
+            class="small-btn">
+        </button>
+    </div>
+
+    <div class="navigation-container">
+        <button (click)="previous.emit()" *ngIf="index > steps[0]">
+            Previous
+        </button>
+        <button class="hidden-btn"></button>
+        <button (click)="next.emit()" *ngIf="index < steps.length">
+            Next
+        </button>
+    </div>
+
+</div>
